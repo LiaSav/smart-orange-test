@@ -1,0 +1,28 @@
+.tasks {
+  padding: 120px 0 0 0;
+  &__title {
+    padding: 0;
+  }
+  &__left,
+  &__right {
+    padding: 0;
+    margin-top: 60px;
+    img {
+      vertical-align: top;
+    }
+  }
+  &__text {
+    display: inline-block;
+    margin-left: 30px;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: $main-color;
+    &-left {
+      width: 279px;
+    }
+    &-right {
+      width: 420px;
+    }
+  }
+}

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>smart-orange-test</title>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="container">
+          <div class="row">
+            <div class="header__logo col-2 col-md-2 col-lg-1">
+              <a href="index.html"
+                ><img src="images/logo/logo.svg" alt="logo"
+              /></a>
+            </div>
+            <div class="header__menu col-md-8">
+              <nav>
+                <ul class="header__items">
+                  <li class="header__item">
+                    <a href="#" class="header__link">ГЛАВНАЯ</a>
+                  </li>
+                  <li class="header__item">
+                    <a href="#require" class="header__link">ГАЛЕРЕЯ</a>
+                  </li>
+                  <li class="header__item">
+                    <a href="#projects" class="header__link">ПРОЕКТЫ</a>
+                  </li>
+                  <li class="header__item">
+                    <a href="#" class="header__link">СЕРТИФИКАТЫ</a>
+                  </li>
+                  <li class="header__item">
+                    <a href="#contacts" class="header__link">КОНТАКТЫ</a>
+                  </li>
+                </ul>
+                <div class="header__hamburger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="promo">
+      <div class="container">
+        <div class="row">
+          <div class="promo__content col-md-4">
+            <h1 class="promo__header">PROJECT <span>HOME</span></h1>
+            <div class="promo__divider"></div>
+          </div>
+          <div class="promo__picture col-12 col-md-8">
+            <div class="slider">
+              <div class="slider__item">
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="images/img/slider-first.webp"
+                  />
+                  <img
+                    class="slider__item-img"
+                    src="images/img/slider-first.jpg"
+                    alt="slider-first"
+                  />
+                </picture>
+              </div>
+              <div class="slider__item">
+                <picture>
+                  <source
+                    type="image/webp"
+                    srcset="images/img/slider-second.webp"
+                  />
+                  <img
+                    class="slider__item-img"
+                    src="images/img/slider-second.jpg"
+                    alt="slider-second"
+                  />
+                </picture>
+              </div>
+            </div>
+            <a href="#" class="button">
+              ВЗГЛЯНУТЬ <img src="images/icons/chevron-right.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div
+            class="about__images col-7 col-md-7 col-lg-7 col-xl-6 offset-xl-1"
+          >
+            <picture>
+              <source type="image/webp" srcset="images/img/about-img1.webp" />
+              <img src="images/img/about-img1.jpg" alt="img1" />
+            </picture>
+            <picture class="about__image-center">
+              <source type="image/webp" srcset="images/img/about-img2.webp" />
+              <img src="images/img/about-img2.jpg" alt="img2" />
+            </picture>
+            <picture>
+              <source type="image/webp" srcset="images/img/about-img3.webp" />
+              <img src="images/img/about-img3.jpg" alt="img3" />
+            </picture>
+          </div>
+          <div class="about__content col-12 col-md-5 col-lg-5 col-xl-5">
+            <h2 class="title about__title">О компании</h2>
+            <div class="about__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+            </div>
+            <a href="#" class="button about__button">
+              ЧИТАТЬ <img src="images/icons/chevron-right.svg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="tasks">
+      <div class="container">
+        <div class="row">
+          <h2 class="title tasks__title">Основные задачи</h2>
+          <div class="tasks__left col-12 col-md-5 col-xl-6">
+            <img src="images/icons/tasks-1.svg" alt="tasks-1" />
+            <div class="tasks__text tasks__text-left">
+              Создание комфортных условий и повышение качества обслуживания
+              клиентов
+            </div>
+          </div>
+          <div class="tasks__right col-12 col-md-7 col-xl-6">
+            <img src="images/icons/tasks-2.svg" alt="tasks-2" />
+            <div class="tasks__text tasks__text-right">
+              Постоянно совершенствовать качество предоставляемых услуг путем
+              обучения персонала, закупки нового оборудования и усиленной
+              рекламы на рынке
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="title projects__title">Наши проекты</h2>
+        <div class="projects__items">
+          <div class="projects__item projects__item-first">
+            <a href="#" class="projects__link">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="images/img/projects-img1.webp"
+                />
+                <img
+                  class="projects-img"
+                  src="images/img/projects-img1.jpg"
+                  alt="projects-img1"
+                />
+              </picture>
+            </a>
+            <div class="projects__overlay">
+              <div class="projects__text">ДОСУГОВЫЙ ЦЕНТР</div>
+              <a href="#" class="button projects__button">
+                ПОДРОБНЕЕ
+                <img src="images/icons/chevron-right-white.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="projects__item projects__item-second">
+            <a href="#" class="projects__link">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="images/img/projects-img2.webp"
+                />
+                <img
+                  class="projects-img"
+                  src="images/img/projects-img2.jpg"
+                  alt="projects-img2"
+                />
+              </picture>
+            </a>
+            <div class="projects__overlay">
+              <div class="projects__text">ДОСУГОВЫЙ ЦЕНТР</div>
+              <a href="#" class="button projects__button">
+                ПОДРОБНЕЕ
+                <img src="images/icons/chevron-right-white.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="projects__item projects__item-third">
+            <a href="#" class="projects__link">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="images/img/projects-img3.webp"
+                />
+                <img
+                  class="projects-img"
+                  src="images/img/projects-img3.jpg"
+                  alt="projects-img3"
+                />
+              </picture>
+            </a>
+            <div class="projects__overlay">
+              <a href="#" class="button projects__button">
+                ПОДРОБНЕЕ
+                <img src="images/icons/chevron-right-white.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="projects__item projects__item-fourth">
+            <a href="#" class="projects__link">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="images/img/projects-img4.webp"
+                />
+                <img
+                  class="projects-img"
+                  src="images/img/projects-img4.jpg"
+                  alt="projects-img4"
+                />
+              </picture>
+            </a>
+            <div class="projects__overlay">
+              <a href="#" class="button projects__button">
+                ПОДРОБНЕЕ
+                <img src="images/icons/chevron-right-white.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="projects__item projects__item-fifth">
+            <a href="#" class="projects__link">
+              <picture>
+                <source
+                  type="image/webp"
+                  srcset="images/img/projects-img5.webp"
+                />
+                <img
+                  class="projects-img"
+                  src="images/img/projects-img5.jpg"
+                  alt="projects-img5"
+                />
+              </picture>
+            </a>
+            <div class="projects__overlay">
+              <a href="#" class="button projects__button">
+                ПОДРОБНЕЕ
+                <img
+                  src="images/icons/chevron-right-white.svg"
+                  alt="chevron-right-white"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="projects__btn">
+          <a href="#" class="button projects__btn-right">
+            ВСЕ ПРОЕКТЫ
+            <img
+              src="images/icons/chevron-right-white.svg"
+              alt="chevron-right-white"
+            />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="contacts" class="contacts">
+      <div class="container">
+        <div class="row">
+          <h2 class="title contacts__title">Связаться с нами</h2>
+          <div class="contacts__left col-12 col-md-5 col-lg-4">
+            <form id="contacts__form" class="contacts__form" action="#">
+              <label class="place place-input">
+                <input name="name" type="text" required />
+                <span class="place-holder">Имя</span>
+              </label>
+              <label class="place place-input">
+                <input name="phone" required />
+                <span class="place-holder">Номер телефона<span>*</span></span>
+              </label>
+              <label class="place place-input">
+                <input name="email" required />
+                <span class="place-holder">E-mail<span>*</span></span>
+              </label>
+              <label class="place place-input">
+                <input name="productService" type="text" required />
+                <span class="place-holder">Интересующий товар/услуга</span>
+              </label>
+              <label class="place place-textarea">
+                <textarea name="message" required></textarea>
+                <span class="place-holder">Сообщение<span>*</span></span>
+              </label>
+              <div class="contacts__policy">
+                <input type="checkbox" required />
+                <span
+                  >Отправляя заявку Вы соглашаетесь с
+                  <a href="#">политикой конфиденциальности</a></span
+                >
+              </div>
+              <button class="contacts__button">
+                ОТПРАВИТЬ
+                <img
+                  src="images/icons/chevron-right-white.svg"
+                  alt="chevron-right-white"
+                />
+              </button>
+            </form>
+          </div>
+          <div class="contacts__right col-md-7 col-lg-8">
+            <picture>
+              <source
+                type="image/webp"
+                srcset="images/img/contacts-right-img.webp"
+              />
+              <img
+                class="contacts__right-img"
+                src="images/img/contacts-right-img.jpg"
+                alt="contacts-right-img"
+              />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__logo">
+            <a href="index.html"
+              ><img src="images/logo/footer-logo.png" alt="logo"
+            /></a>
+          </div>
+          <div>
+            <div class="footer__links">
+              <h3 class="footer__title">Информация</h3>
+              <a class="footer__link" href="#">Главная</a>
+              <a class="footer__link" href="#">Галерея</a>
+              <a class="footer__link" href="#projects">Проекты</a>
+              <a class="footer__link" href="#">Сертификаты</a>
+              <a class="footer__link" href="#">Контакты</a>
+            </div>
+          </div>
+          <div>
+            <div class="footer__contacts">
+              <h3 class="footer__title">Контакты</h3>
+              <div class="footer__contacts-addr">
+                <img src="images/icons/addr.svg" alt="addr" />
+                <address>
+                  100000, Республика Казахстан, г.Караганда, ул.Телевизионная 10
+                </address>
+              </div>
+              <div class="footer__contacts-tel">
+                <img src="images/icons/tel.svg" alt="tel" />
+                <a href="tel:+380000000000">+38 (000) 000 00 00</a>
+              </div>
+              <div class="footer__contacts-email">
+                <img src="images/icons/email.svg" alt="email" />
+                <a href="mailto:mail@gmail.com">mail@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="footer__social">
+              <h3 class="footer__title">Социальные сети</h3>
+              <div class="footer__social-links">
+                <a href="https://www.facebook.com" class="footer__social-item"
+                  ><img src="images/icons/facebook.svg" alt="facebook"
+                /></a>
+                <a href="https://twitter.com" class="footer__social_item"
+                  ><img src="images/icons/twitter.svg" alt="twitter"
+                /></a>
+                <a href="https://www.linkedin.com" class="footer__social_item"
+                  ><img src="images/icons/linkedin.svg" alt="linkedin"
+                /></a>
+                <a href="https://www.pinterest.com" class="footer__social_item"
+                  ><img src="images/icons/pinterest.svg" alt="pinterest"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__divider"></div>
+      <div class="footer__copyright">
+        &copy; 2019 Digital Project. Все права защищены.
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+.footer {
+  padding: 58px 0 24px 0;
+  background-color: $main-color;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &__wrapper > div {
+    width: 25%;
+  }
+  &__links {
+    display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+  }
+  &__link {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
+  &__contacts {
+    &-addr {
+      display: flex;
+      justify-content: flex-start;
+      align-content: flex-start;
+      img {
+        width: 11px;
+        height: 16px;
+        margin-top: 7px;
+      }
+      address {
+        margin-left: 19px;
+        margin-bottom: 31px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        vertical-align: top;
+        color: #fff;
+      }
+    }
+    &-tel {
+      margin-bottom: 33px;
+    }
+    &-tel,
+    &-email {
+      img {
+        margin-right: 14px;
+      }
+      a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        align-items: center;
+        letter-spacing: 0.03em;
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+          color: #fff;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  &__social {
+    &-links {
+      width: 193px;
+      display: flex;
+      justify-content: space-around;
+      a {
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+  &__divider {
+    margin-top: 60px;
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.1;
+  }
+  &__copyright {
+    margin: 24px auto 0 auto;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    color: rgba(200, 200, 200, 0.5);
+    text-align: center;
+  }
+}

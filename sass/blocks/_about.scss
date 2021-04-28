@@ -1,0 +1,42 @@
+.about {
+  padding: 120px 0 0 0;
+  .row {
+    background-color: #fbfbfb;
+  }
+  &__images,
+  &__content {
+    padding: 0;
+  }
+  &__images {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 270px);
+    grid-template-rows: 265px 140px;
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+  &__image-center {
+    margin-top: 30px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+  }
+  &__content {
+    margin-left: 15px;
+    width: 400px;
+  }
+  &__title {
+    margin-top: 30px;
+  }
+  &__text {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000;
+  }
+  &__button {
+    position: static;
+    display: block;
+    margin-top: 20px;
+  }
+}

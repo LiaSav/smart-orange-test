@@ -1,0 +1,37 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/bootstrap-grid.min";
+@import "libs/fonts";
+
+@import "base/variables";
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+html,
+body {
+  font-family: "TT Hoves", sans-serif;
+  font-style: normal;
+  min-width: 320px;
+}
+.container {
+  max-width: 1170px;
+  padding: 0;
+  margin: 0 auto;
+}
+.row {
+  padding: 0;
+  margin: 0;
+}
+@import "blocks/header";
+@import "blocks/promo";
+@import "blocks/button";
+@import "blocks/about";
+@import "blocks/title";
+@import "blocks/tasks";
+@import "blocks/projects";
+@import "blocks/contacts";
+@import "blocks/footer";
+@import "blocks/media";
